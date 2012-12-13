@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 3.1.10-Saber-toothed-Squirrel-v3.3 Kernel Configuration
+# Linux/arm 3.1.10-Saber-toothed-Squirrel-v3.4 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -571,7 +571,7 @@ CONFIG_PM_SLEEP=y
 CONFIG_PM_SLEEP_SMP=y
 CONFIG_PM_RUNTIME=y
 CONFIG_PM=y
-# CONFIG_PM_DEBUG is not set
+CONFIG_PM_DEBUG=y
 # CONFIG_APM_EMULATION is not set
 CONFIG_PM_CLK=y
 CONFIG_SUSPEND_TIME=y
@@ -3142,9 +3142,9 @@ CONFIG_STACKTRACE=y
 # CONFIG_DEBUG_STACK_USAGE is not set
 # CONFIG_DEBUG_KOBJECT is not set
 # CONFIG_DEBUG_HIGHMEM is not set
-# CONFIG_DEBUG_BUGVERBOSE is not set
-# CONFIG_DEBUG_INFO is not set
-# CONFIG_DEBUG_VM is not set
+CONFIG_DEBUG_BUGVERBOSE=y
+CONFIG_DEBUG_INFO=y
+CONFIG_DEBUG_VM=y
 # CONFIG_DEBUG_WRITECOUNT is not set
 # CONFIG_DEBUG_MEMORY_INIT is not set
 # CONFIG_DEBUG_LIST is not set
